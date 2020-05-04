@@ -7,6 +7,14 @@
 [![Backers](https://opencollective.com/hardkoded-projects/backers/badge.svg)][Backers]
 
 Example: https://kiltandcode.com/puppeteer-sharp-crawl-the-web-using-csharp-and-headless-chrome/
+Fix bug install if got error with version: https://stackoverflow.com/questions/42039069/could-not-install-package-you-are-trying-to-install-this-package-into-a-pr
+
+    Go to the folder:
+
+    C:\Users\[username]\.nuget\packages\[package name]\1.0.0.4\lib
+    Rename the folder with the .net version of your project.
+
+    Suppose I am using .net framework 4.6.1 my folder name should be net461
 
 [NugetUrl]: https://www.nuget.org/packages/PuppeteerSharp/
 [BuildUrl]: https://ci.appveyor.com/project/kblok/puppeteer-sharp/branch/master

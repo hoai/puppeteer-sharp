@@ -15,6 +15,9 @@ Fix bug install if got error with version: https://stackoverflow.com/questions/4
     Rename the folder with the .net version of your project.
 
     Suppose I am using .net framework 4.6.1 my folder name should be net461
+Or you can download our nuget folder:
+https://drive.google.com/file/d/1mA_Avobz0Hh1zTLsI-sJjhLjlLQw9svI/view?usp=sharing
+and extract to  C:\Users\VAN_HOAI\.nuget
 
 [NugetUrl]: https://www.nuget.org/packages/PuppeteerSharp/
 [BuildUrl]: https://ci.appveyor.com/project/kblok/puppeteer-sharp/branch/master
